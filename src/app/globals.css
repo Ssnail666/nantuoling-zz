@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  touch-action: manipulation;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  color: #243127;
+  background:
+    radial-gradient(circle at top, rgba(66, 122, 91, 0.12), transparent 28%),
+    linear-gradient(180deg, #f3efe7 0%, #fbfaf7 18%, #f7f9f7 100%);
+}
+
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.tap-active:active {
+  transform: scale(0.98);
+  opacity: 0.9;
+}
+
+.soft-panel {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(14px);
+}
+
+.field {
+  @apply w-full rounded-2xl border border-stone-200 bg-white px-4 py-3 text-[15px] outline-none transition focus:border-moss focus:ring-4 focus:ring-moss/10;
+}
+
+.chip {
+  @apply rounded-full border border-stone-200 px-4 py-2 text-sm font-medium text-stone-600 transition;
+}
+
+.chip-active {
+  @apply border-moss bg-moss text-white;
+}

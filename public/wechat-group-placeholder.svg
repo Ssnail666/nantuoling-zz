@@ -1,0 +1,16 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="640" rx="48" fill="#F7F1E8"/>
+  <rect x="44" y="44" width="552" height="552" rx="32" fill="white"/>
+  <rect x="104" y="104" width="180" height="180" rx="18" fill="#427A5B"/>
+  <rect x="356" y="104" width="180" height="180" rx="18" fill="#243127"/>
+  <rect x="104" y="356" width="180" height="180" rx="18" fill="#C56B49"/>
+  <rect x="356" y="356" width="180" height="180" rx="18" fill="#C9D9CC"/>
+  <path d="M152 194H236" stroke="white" stroke-width="18" stroke-linecap="round"/>
+  <path d="M194 152V236" stroke="white" stroke-width="18" stroke-linecap="round"/>
+  <path d="M392 170H500" stroke="white" stroke-width="18" stroke-linecap="round"/>
+  <path d="M392 218H462" stroke="white" stroke-width="18" stroke-linecap="round"/>
+  <path d="M152 446H236" stroke="white" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="446" cy="446" r="54" fill="#427A5B"/>
+  <path d="M428 446L440 458L466 432" stroke="white" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="600" text-anchor="middle" fill="#243127" font-size="28" font-family="sans-serif">替换成你的微信群二维码</text>
+</svg>
